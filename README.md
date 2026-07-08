@@ -1,4 +1,4 @@
-#MaRe — Manajemen Reservasi
+MaRe — Manajemen Reservasi
 
 Sistem Reservasi Hotel berbasis web yang dibangun menggunakan Laravel 12 dengan konsep fullstack development. Dibuat sebagai Tugas Besar UAS mata kuliah Pemrograman Web 2.
 
