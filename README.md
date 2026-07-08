@@ -1,18 +1,21 @@
-MaRe — Manajemen Reservasi
+# MaRe — Manajemen Reservasi
 
 Sistem Reservasi Hotel berbasis web yang dibangun menggunakan Laravel 12 dengan konsep fullstack development. Dibuat sebagai Tugas Besar UAS mata kuliah Pemrograman Web 2.
+## Link video demo: https://youtu.be/9MGhnP8jcEA
+## Link Domain: https://aspel.cyou/reservasihotel/
+## Link Drive: 
+https://drive.google.com/drive/folders/1FUcEQgei_GUEfZKbnXCFolzXn_x8Hhwy?usp=sharing
 
 <img width="2880" height="1800" alt="Screenshot 2026-07-08 164719" src="https://github.com/user-attachments/assets/d4b746ce-ff05-4068-abb0-4fb3edea981c" />
 <img width="2880" height="1800" alt="Screenshot 2026-07-08 170623" src="https://github.com/user-attachments/assets/426ebe70-8222-421a-90d7-af48f1caabdf" />
 <img width="2880" height="1800" alt="Screenshot 2026-07-08 171322" src="https://github.com/user-attachments/assets/add195c0-9bdc-4f5f-a2a7-9be6ac183fbe" />
 <img width="2880" height="1800" alt="Screenshot 2026-07-08 170942" src="https://github.com/user-attachments/assets/151ae28c-f797-4df1-8f76-40f1e56ad843" />
 
-
-📋 Deskripsi
+# 📋 Deskripsi
 
 MaRe adalah aplikasi manajemen reservasi hotel yang memungkinkan staf hotel (Admin dan Petugas) untuk mengelola data kamar, tamu, dan proses reservasi mulai dari booking, check-in, hingga check-out secara digital dan terpusat.
 
-✨ Fitur Utama
+# ✨ Fitur Utama
 
 Fitur Wajib
 
@@ -26,7 +29,7 @@ Dashboard — Statistik total data, grafik reservasi, dan status kamar (Chart.js
 Export Laporan — Export data reservasi ke Excel dan PDF
 
 
-Fitur Nilai Tambahan
+# Fitur Nilai Tambahan
 
 
 🌓 Dark Mode — Toggle tema gelap/terang dengan preferensi tersimpan
@@ -36,7 +39,7 @@ Fitur Nilai Tambahan
 ✉️ Email Notification — Notifikasi email otomatis saat booking dikonfirmasi
 
 
-🗄️ Struktur Database
+# 🗄️ Struktur Database
 
 Tabel Master:
 
@@ -64,13 +67,13 @@ guests → bookings (One-to-Many)
 bookings ↔ facilities (Many-to-Many via booking_facility)
 
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 KategoriTeknologiBackendLaravel 12, PHP 8.2FrontendBlade Templating, Tailwind CSSDatabaseMySQLAutentikasiLaravel BreezeGrafikChart.jsQR Codesimplesoftwareio/simple-qrcodeActivity Logspatie/laravel-activitylogEmailLaravel Mail
 
 🚀 Instalasi & Menjalankan Secara Lokal
 
-Prasyarat
+# Prasyarat
 
 
 PHP >= 8.2
@@ -79,7 +82,7 @@ Node.js & NPM
 MySQL
 
 
-Langkah Instalasi
+# Langkah Instalasi
 
 bash# Clone repository
 git clone (https://github.com/Lisarynt/Sistem_manajemen_reservasi_hotel/)
@@ -126,7 +129,7 @@ Akun Default (dari Seeder)
 
 RoleEmailPasswordAdminadmin@hotel.testpasswordPetugaspetugas@hotel.testpassword
 
-📁 Struktur Modul CRUD
+# 📁 Struktur Modul CRUD
 
 
 Tipe Kamar — Khusus Admin (Petugas read-only)
@@ -136,15 +139,15 @@ Tamu — Admin & Petugas (akses penuh)
 Reservasi/Booking — Admin & Petugas (akses penuh), termasuk proses Check-In/Check-Out
 
 
-👥 Role & Hak Akses
+# 👥 Role & Hak Akses
 
 ModulAdminPetugasTipe Kamar, Kamar, FasilitasCRUD penuhRead-onlyTamu, Booking, Check-In/OutCRUD penuhCRUD penuhActivity LogAkses penuhTidak dapat diaksesLaporan & ExportAkses penuhAkses penuh
 
-📄 Lisensi
+# 📄 Lisensi
 
 Project ini dibuat untuk keperluan akademik (Tugas Besar UAS) dan bersifat open untuk pembelajaran.
 
-👤 Author
+# 👤 Author
 
 Lisa Ayu Aryanti
 NIM: 23552011432
