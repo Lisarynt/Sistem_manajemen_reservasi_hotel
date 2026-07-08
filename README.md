@@ -1,6 +1,12 @@
-MaRe — Manajemen Reservasi
+#MaRe — Manajemen Reservasi
 
 Sistem Reservasi Hotel berbasis web yang dibangun menggunakan Laravel 12 dengan konsep fullstack development. Dibuat sebagai Tugas Besar UAS mata kuliah Pemrograman Web 2.
+
+<img width="2880" height="1800" alt="Screenshot 2026-07-08 164719" src="https://github.com/user-attachments/assets/d4b746ce-ff05-4068-abb0-4fb3edea981c" />
+<img width="2880" height="1800" alt="Screenshot 2026-07-08 170623" src="https://github.com/user-attachments/assets/426ebe70-8222-421a-90d7-af48f1caabdf" />
+<img width="2880" height="1800" alt="Screenshot 2026-07-08 171322" src="https://github.com/user-attachments/assets/add195c0-9bdc-4f5f-a2a7-9be6ac183fbe" />
+<img width="2880" height="1800" alt="Screenshot 2026-07-08 170942" src="https://github.com/user-attachments/assets/151ae28c-f797-4df1-8f76-40f1e56ad843" />
+
 
 📋 Deskripsi
 
@@ -53,7 +59,6 @@ room_images — Galeri foto tiap kamar (relasi One-to-Many ke rooms)
 
 Relasi:
 
-
 room_types → rooms (One-to-Many)
 guests → bookings (One-to-Many)
 bookings ↔ facilities (Many-to-Many via booking_facility)
@@ -77,7 +82,7 @@ MySQL
 Langkah Instalasi
 
 bash# Clone repository
-git clone https://github.com/username-kamu/mare.git
+git clone (https://github.com/Lisarynt/Sistem_manajemen_reservasi_hotel/)
 cd mare
 
 # Install dependency PHP
